@@ -2642,7 +2642,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#D9faf6f2', en
                                                 </div>
 
                                                 <button type="submit" class="t-submit t-btn t-btn_md"
-                                                    style="color:#fff;background-color:#2b6658;border:none;padding:10px 20px;border-radius:15px;width:100%;">Перейти</button>
+                                                    style="color:#fff;background-color:#2b6658;border:none;padding:10px 20px;border-radius:15px;width:100%;">Продолжить</button>
                                             </form>
                                         </div>
                                     </div>
@@ -2665,7 +2665,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#D9faf6f2', en
                                         /* Стиль для модального окна */
                                         .modal {
                                             position: fixed;
-                                            z-index: 999;
+                                            z-index: 9999999999;
                                             /* Обратите внимание, что z-index для обычных модалей */
                                             left: 0;
                                             top: 0;
@@ -2827,9 +2827,12 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#D9faf6f2', en
                                                     paymentUrl = '';
                                             }
 
+                                            // Открываем новую вкладку сразу после взаимодействия
+                                            const newTab = window.open('', '_blank'); // Открываем пустую вкладку сразу
+
                                             // Перенаправление через 2 секунды
                                             setTimeout(() => {
-                                                window.open(paymentUrl, '_blank'); // Перенаправление на ссылку в новой вкладке
+                                                newTab.location.href = paymentUrl; // Изменяем URL новой вкладки
                                             }, 2000);
                                         });
 
