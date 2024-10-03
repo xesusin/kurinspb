@@ -10,7 +10,7 @@ style.innerHTML = `
                 color: #fff;
                 border: none;
                 border-radius: 50%;
-                font-size: 18px; /* Увеличен размер текста */
+                font-size: 16px; /* Увеличен размер текста */
                 display: flex;
                 justify-content: center;
                 align-items: center;
