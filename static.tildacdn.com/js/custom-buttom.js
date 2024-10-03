@@ -4,8 +4,8 @@ style.innerHTML = `
                 position: fixed;
                 bottom: 20px;
                 right: 20px;
-                width: 100px; /* Увеличен размер кнопки */
-                height: 100px; /* Увеличен размер кнопки */
+                width: 100px !important; /* Увеличен размер кнопки */
+                height: 100px !important; /* Увеличен размер кнопки */
                 background-color: #2b6658;
                 color: #fff;
                 border: none;
