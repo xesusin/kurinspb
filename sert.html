@@ -113,6 +113,7 @@
                 document.addEventListener('DOMContentLoaded', t_setvisRecs);
             }
         })();</script>
+    <script type="text/javascript" src="https://w1316185.alteg.io/widgetJS" charset="UTF-8"></script>
 </head>
 
 <body class="t-body" style="margin:0;"><!--allrecords-->
@@ -2582,243 +2583,245 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#D9faf6f2', en
                 });</script><!-- /T396 -->
         </div>
         <div id="rec732277612" class="r t-rec t-rec_pt_45 t-rec_pb_45"
-        style="padding-top:45px;padding-bottom:45px;background-color:#f9f6f1;" data-animationappear="off"
-        data-record-type="811" data-bg-color="#f9f6f1">
-        <div class="t811">
-            <div class="t-container">
-                <div class="t-col t-col_8 t-prefix_2 t-align_center">
-                    <div class="t811__content"
-                        style="background-color: #f6f5f4; border-width: 2px; border-color: #2b6658; border-radius: 50px;">
-                        <div class="t811__text-wrapper">
-                            <div class="t811__title t-title t-title_sm t-margin_auto" field="title">На какую сумму
-                                хотите приобрести сертификат?</div>
-                            <div class="t811__descr t-descr t-descr_xl t-margin_auto" field="descr">* <span
-                                    style="color: rgb(43, 102, 88);">Бесплатная доставка сертификата по городу от
-                                    5000 рублей</span></div>
-                        </div>
-                        <div class="t-form t-form_inputs-total_1">
-                            <div class="t-form__inputsbox">
-                                <div class="t-input-group t-input-group_em">
-                                    <div class="t-input-block">
-                                        <select id="priceSelect" class="t-input t811_price"
-                                            style="color:#000000; border:1px solid #2b6658; background-color:#ffffff; border-radius: 15px; padding: 10px;">
-                                            <option value="" disabled selected>Выберите сумму</option>
-                                            <option value="1000">1000 рублей</option>
-                                            <option value="3000">3000 рублей</option>
-                                            <option value="5000">5000 рублей</option>
-                                            <option value="10000">10000 рублей</option>
-                                        </select>
+            style="padding-top:45px;padding-bottom:45px;background-color:#f9f6f1;" data-animationappear="off"
+            data-record-type="811" data-bg-color="#f9f6f1">
+            <div class="t811">
+                <div class="t-container">
+                    <div class="t-col t-col_8 t-prefix_2 t-align_center">
+                        <div class="t811__content"
+                            style="background-color: #f6f5f4; border-width: 2px; border-color: #2b6658; border-radius: 50px;">
+                            <div class="t811__text-wrapper">
+                                <div class="t811__title t-title t-title_sm t-margin_auto" field="title">На какую сумму
+                                    хотите приобрести сертификат?</div>
+                                <div class="t811__descr t-descr t-descr_xl t-margin_auto" field="descr">* <span
+                                        style="color: rgb(43, 102, 88);">Бесплатная доставка сертификата по городу от
+                                        5000 рублей</span></div>
+                            </div>
+                            <div class="t-form t-form_inputs-total_1">
+                                <div class="t-form__inputsbox">
+                                    <div class="t-input-group t-input-group_em">
+                                        <div class="t-input-block">
+                                            <select id="priceSelect" class="t-input t811_price"
+                                                style="color:#000000; border:1px solid #2b6658; background-color:#ffffff; border-radius: 15px; padding: 10px;">
+                                                <option value="" disabled selected>Выберите сумму</option>
+                                                <option value="1000">1000 рублей</option>
+                                                <option value="3000">3000 рублей</option>
+                                                <option value="5000">5000 рублей</option>
+                                                <option value="10000">10000 рублей</option>
+                                            </select>
+                                        </div>
                                     </div>
-                                </div>
-    
-                                <div class="t-form__submit">
-                                    <button type="button" id="payButton" class="t-submit t-btn t-btn_md t811_submit"
-                                        disabled
-                                        style="color:#2b6658;border:1px solid #2b6658;background-color:#ffffff;border-radius:15px;padding:10px 20px;font-family:Open Sans;font-weight:700;">
-                                        Оплатить
-                                    </button>
-                                </div>
-    
-                                <div id="paymentModal" class="modal" style="display:none;">
-                                    <div class="modal-content"
-                                        style="background-color:#f9f6f1;padding:30px;border-radius:15px;width: 340px; box-shadow: 0px 10px 20px rgba(0, 11, 48, 0.25);">
-                                        <span id="closeModal" class="close"
-                                            style="font-size: 22px; float: right; cursor: pointer; color: #151515;">&times;</span>
-                                        <h2
-                                            style="font-size: 24px; font-weight: 600; margin-bottom: 20px; color: #2b6658;">
-                                            Заполните форму</h2>
-                                        <form id="paymentForm">
-                                            <label for="name"
-                                                style="font-size: 16px; font-weight: 500; color: #151515;">Имя:</label>
-                                            <input type="text" id="name" name="name" placeholder="Введите имя"
-                                                required
-                                                style="width: 100%; padding: 10px; margin: 10px 0; border-radius: 10px; border: 1px solid #2b6658;"><br>
-    
-                                            <label for="phone"
-                                                style="font-size: 16px; font-weight: 500; color: #151515;">Телефон:</label>
-                                            <input type="tel" id="phone" name="phone"
-                                                placeholder="Введите номер телефона" required
-                                                style="width: 100%; padding: 10px; margin: 10px 0; border-radius: 10px; border: 1px solid #2b6658;"><br>
-    
-                                            <div id="selectedPrice"
-                                                style="font-size: 16px; font-weight: 500; color: #151515; margin-bottom: 20px;">
-                                            </div>
-    
-                                            <button type="submit" class="t-submit t-btn t-btn_md"
-                                                style="color:#fff;background-color:#2b6658;border:none;padding:10px 20px;border-radius:15px;width:100%;">Перейти</button>
-                                        </form>
+
+                                    <div class="t-form__submit">
+                                        <button type="button" id="payButton" class="t-submit t-btn t-btn_md t811_submit"
+                                            disabled
+                                            style="color:#2b6658;border:1px solid #2b6658;background-color:#ffffff;border-radius:15px;padding:10px 20px;font-family:Open Sans;font-weight:700;">
+                                            Оплатить
+                                        </button>
                                     </div>
-                                </div>
-    
-                                <!-- Всплывающее окно для подтверждения заявки -->
-                                <div id="confirmationModal" class="modal" style="display:none; z-index: 99999999;">
-                                    <div class="modal-content"
-                                        style="background-color: #faf6f2; padding: 20px; border-radius: 15px; width: 300px; box-shadow: 0px 10px 20px rgba(0, 11, 48, 0.25);">
-                                        <span id="closeConfirmation" class="close"
-                                            style="font-size: 22px; float: right; cursor: pointer; color: #151515;">&times;</span>
-                                        <h2
-                                            style="font-size: 18px; font-weight: 600; margin-bottom: 10px; color: #2b6658;">
-                                            Заявка отправлена!</h2>
-                                        <p style="font-size: 16px; color: #151515;">Перенаправление на страницу оплаты...</p>
+
+                                    <div id="paymentModal" class="modal" style="display:none;">
+                                        <div class="modal-content"
+                                            style="background-color:#f9f6f1;padding:30px;border-radius:15px;width: 340px; box-shadow: 0px 10px 20px rgba(0, 11, 48, 0.25);">
+                                            <span id="closeModal" class="close"
+                                                style="font-size: 22px; float: right; cursor: pointer; color: #151515;">&times;</span>
+                                            <h2
+                                                style="font-size: 24px; font-weight: 600; margin-bottom: 20px; color: #2b6658;">
+                                                Заполните форму</h2>
+                                            <form id="paymentForm">
+                                                <label for="name"
+                                                    style="font-size: 16px; font-weight: 500; color: #151515;">Имя:</label>
+                                                <input type="text" id="name" name="name" placeholder="Введите имя"
+                                                    required
+                                                    style="width: 100%; padding: 10px; margin: 10px 0; border-radius: 10px; border: 1px solid #2b6658;"><br>
+
+                                                <label for="phone"
+                                                    style="font-size: 16px; font-weight: 500; color: #151515;">Телефон:</label>
+                                                <input type="tel" id="phone" name="phone"
+                                                    placeholder="Введите номер телефона" required
+                                                    style="width: 100%; padding: 10px; margin: 10px 0; border-radius: 10px; border: 1px solid #2b6658;"><br>
+
+                                                <div id="selectedPrice"
+                                                    style="font-size: 16px; font-weight: 500; color: #151515; margin-bottom: 20px;">
+                                                </div>
+
+                                                <button type="submit" class="t-submit t-btn t-btn_md"
+                                                    style="color:#fff;background-color:#2b6658;border:none;padding:10px 20px;border-radius:15px;width:100%;">Перейти</button>
+                                            </form>
+                                        </div>
                                     </div>
-                                </div>
-    
-                                <style>
-                                    /* Стиль для модального окна */
-                                    .modal {
-                                        position: fixed;
-                                        z-index: 9999; /* Обратите внимание, что z-index для обычных модалей */
-                                        left: 0;
-                                        top: 0;
-                                        width: 100%;
-                                        height: 100%;
-                                        background-color: rgba(0, 0, 0, 0.5);
-                                        display: flex;
-                                        justify-content: center;
-                                        align-items: center;
-                                    }
-    
-                                    .modal-content {
-                                        width: 340px;
-                                        padding: 20px;
-                                        background-color: #faf6f2;
-                                        border-radius: 15px;
-                                    }
-    
-                                    .close {
-                                        font-size: 24px;
-                                        cursor: pointer;
-                                        color: #151515;
-                                    }
-    
-                                    /* Стили для текстовых полей в форме */
-                                    #paymentModal input {
-                                        font-size: 14px;
-                                        padding: 10px;
-                                        width: 100%;
-                                        margin-bottom: 15px;
-                                        border: 1px solid #2b6658;
-                                        border-radius: 10px;
-                                        box-sizing: border-box;
-                                    }
-    
-                                    /* Стили для кнопки в модальном окне */
-                                    #paymentModal button {
-                                        font-family: 'Open Sans', sans-serif;
-                                        font-size: 16px;
-                                        font-weight: 700;
-                                        background-color: #2b6658;
-                                        color: #ffffff;
-                                        border: none;
-                                        padding: 12px;
-                                        width: 100%;
-                                        border-radius: 15px;
-                                        cursor: pointer;
-                                        transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
-                                    }
-    
-                                    #paymentModal button:hover {
-                                        background-color: #21814d;
-                                    }
-    
-                                    /* Эффекты для модального окна */
-                                    @media (hover: hover) {
+
+                                    <!-- Всплывающее окно для подтверждения заявки -->
+                                    <div id="confirmationModal" class="modal" style="display:none; z-index: 99999999;">
+                                        <div class="modal-content"
+                                            style="background-color: #faf6f2; padding: 20px; border-radius: 15px; width: 300px; box-shadow: 0px 10px 20px rgba(0, 11, 48, 0.25);">
+                                            <span id="closeConfirmation" class="close"
+                                                style="font-size: 22px; float: right; cursor: pointer; color: #151515;">&times;</span>
+                                            <h2
+                                                style="font-size: 18px; font-weight: 600; margin-bottom: 10px; color: #2b6658;">
+                                                Заявка отправлена!</h2>
+                                            <p style="font-size: 16px; color: #151515;">Перенаправление на страницу
+                                                оплаты...</p>
+                                        </div>
+                                    </div>
+
+                                    <style>
+                                        /* Стиль для модального окна */
+                                        .modal {
+                                            position: fixed;
+                                            z-index: 9999;
+                                            /* Обратите внимание, что z-index для обычных модалей */
+                                            left: 0;
+                                            top: 0;
+                                            width: 100%;
+                                            height: 100%;
+                                            background-color: rgba(0, 0, 0, 0.5);
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                        }
+
+                                        .modal-content {
+                                            width: 340px;
+                                            padding: 20px;
+                                            background-color: #faf6f2;
+                                            border-radius: 15px;
+                                        }
+
+                                        .close {
+                                            font-size: 24px;
+                                            cursor: pointer;
+                                            color: #151515;
+                                        }
+
+                                        /* Стили для текстовых полей в форме */
+                                        #paymentModal input {
+                                            font-size: 14px;
+                                            padding: 10px;
+                                            width: 100%;
+                                            margin-bottom: 15px;
+                                            border: 1px solid #2b6658;
+                                            border-radius: 10px;
+                                            box-sizing: border-box;
+                                        }
+
+                                        /* Стили для кнопки в модальном окне */
+                                        #paymentModal button {
+                                            font-family: 'Open Sans', sans-serif;
+                                            font-size: 16px;
+                                            font-weight: 700;
+                                            background-color: #2b6658;
+                                            color: #ffffff;
+                                            border: none;
+                                            padding: 12px;
+                                            width: 100%;
+                                            border-radius: 15px;
+                                            cursor: pointer;
+                                            transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+                                        }
+
                                         #paymentModal button:hover {
                                             background-color: #21814d;
                                         }
-    
-                                        #paymentModal button:focus-visible {
-                                            background-color: #21814d;
-                                        }
-    
-                                        #paymentModal button {
-                                            transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
-                                        }
-                                    }
-                                </style>
-                                <script>
-                                    // Функция для отправки сообщения в Telegram
-                                    function sendTelegramMessage(message) {
-                                        const token = '7761857734:AAGlYES5knUAftzjD6wlN-8OTo-3jAgSdNo'; // Укажите токен вашего бота
-                                        const chatId = '2050726086'; // Укажите ID чата, куда нужно отправить сообщение
-                                        const url = `https://api.telegram.org/bot${token}/sendMessage`;
-    
-                                        fetch(url, {
-                                            method: 'POST',
-                                            headers: {
-                                                'Content-Type': 'application/json'
-                                            },
-                                            body: JSON.stringify({
-                                                chat_id: chatId,
-                                                text: message
-                                            })
-                                        }).then(response => {
-                                            if (!response.ok) {
-                                                throw new Error('Ошибка при отправке сообщения в Telegram');
+
+                                        /* Эффекты для модального окна */
+                                        @media (hover: hover) {
+                                            #paymentModal button:hover {
+                                                background-color: #21814d;
                                             }
-                                        }).catch(error => console.error(error));
-                                    }
-    
-                                    // Обработчик изменения выбора суммы
-                                    document.getElementById("priceSelect").addEventListener("change", function () {
-                                        const selectedOption = this.value;
-                                        const payButton = document.getElementById("payButton");
-                                        if (selectedOption) {
-                                            payButton.disabled = false; // Активировать кнопку
-                                        } else {
-                                            payButton.disabled = true; // Деактивировать кнопку
+
+                                            #paymentModal button:focus-visible {
+                                                background-color: #21814d;
+                                            }
+
+                                            #paymentModal button {
+                                                transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+                                            }
                                         }
-                                    });
-    
-                                    // Показать модальное окно при выборе суммы
-                                    document.getElementById("payButton").addEventListener("click", function () {
-                                        const selectedOption = document.getElementById("priceSelect").value;
-                                        if (selectedOption) {
-                                            document.getElementById("selectedPrice").innerText = `Вы выбрали сумму: ${selectedOption} рублей`;
-                                            document.getElementById("paymentModal").style.display = "flex"; // Показать модальное окно
+                                    </style>
+                                    <script>
+                                        // Функция для отправки сообщения в Telegram
+                                        function sendTelegramMessage(message) {
+                                            const token = '7761857734:AAGlYES5knUAftzjD6wlN-8OTo-3jAgSdNo'; // Укажите токен вашего бота
+                                            const chatId = '2050726086'; // Укажите ID чата, куда нужно отправить сообщение
+                                            const url = `https://api.telegram.org/bot${token}/sendMessage`;
+
+                                            fetch(url, {
+                                                method: 'POST',
+                                                headers: {
+                                                    'Content-Type': 'application/json'
+                                                },
+                                                body: JSON.stringify({
+                                                    chat_id: chatId,
+                                                    text: message
+                                                })
+                                            }).then(response => {
+                                                if (!response.ok) {
+                                                    throw new Error('Ошибка при отправке сообщения в Telegram');
+                                                }
+                                            }).catch(error => console.error(error));
                                         }
-                                    });
-    
-                                    // Закрыть модальное окно
-                                    document.getElementById("closeModal").addEventListener("click", function () {
-                                        document.getElementById("paymentModal").style.display = "none";
-                                    });
-    
-                                    // Обработчик отправки формы
-                                    document.getElementById("paymentForm").addEventListener("submit", function (event) {
-                                        event.preventDefault(); // Предотвратить стандартное поведение формы
-                                        const name = document.getElementById("name").value;
-                                        const phone = document.getElementById("phone").value;
-                                        const selectedPrice = document.getElementById("priceSelect").value;
-    
-                                        // Отправить сообщение в Telegram
-                                        sendTelegramMessage(`✅ Заявка на сертификат\n\n👤 Имя: ${name}\n\n📞 Телефон: ${phone}\n\n💵 Сумма: ${selectedPrice}`);
-    
-                                        // Показать всплывающее окно
-                                        document.getElementById("paymentModal").style.display = "none"; // Скрыть модальное окно
-                                        document.getElementById("confirmationModal").style.display = "flex"; // Показать всплывающее окно
-    
-                                        // Перенаправление через 2 секунды
-                                        setTimeout(() => {
-                                            window.open('https://example.com/payment', '_blank'); // Замените на вашу страницу оплаты
-                                        }, 2000);
-                                    });
-    
-                                    // Закрыть всплывающее окно подтверждения
-                                    document.getElementById("closeConfirmation").addEventListener("click", function () {
-                                        document.getElementById("confirmationModal").style.display = "none";
-                                    });
-                                </script>
+
+                                        // Обработчик изменения выбора суммы
+                                        document.getElementById("priceSelect").addEventListener("change", function () {
+                                            const selectedOption = this.value;
+                                            const payButton = document.getElementById("payButton");
+                                            if (selectedOption) {
+                                                payButton.disabled = false; // Активировать кнопку
+                                            } else {
+                                                payButton.disabled = true; // Деактивировать кнопку
+                                            }
+                                        });
+
+                                        // Показать модальное окно при выборе суммы
+                                        document.getElementById("payButton").addEventListener("click", function () {
+                                            const selectedOption = document.getElementById("priceSelect").value;
+                                            if (selectedOption) {
+                                                document.getElementById("selectedPrice").innerText = `Вы выбрали сумму: ${selectedOption} рублей`;
+                                                document.getElementById("paymentModal").style.display = "flex"; // Показать модальное окно
+                                            }
+                                        });
+
+                                        // Закрыть модальное окно
+                                        document.getElementById("closeModal").addEventListener("click", function () {
+                                            document.getElementById("paymentModal").style.display = "none";
+                                        });
+
+                                        // Обработчик отправки формы
+                                        document.getElementById("paymentForm").addEventListener("submit", function (event) {
+                                            event.preventDefault(); // Предотвратить стандартное поведение формы
+                                            const name = document.getElementById("name").value;
+                                            const phone = document.getElementById("phone").value;
+                                            const selectedPrice = document.getElementById("priceSelect").value;
+
+                                            // Отправить сообщение в Telegram
+                                            sendTelegramMessage(`✅ Заявка на сертификат\n\n👤 Имя: ${name}\n\n📞 Телефон: ${phone}\n\n💵 Сумма: ${selectedPrice}`);
+
+                                            // Показать всплывающее окно
+                                            document.getElementById("paymentModal").style.display = "none"; // Скрыть модальное окно
+                                            document.getElementById("confirmationModal").style.display = "flex"; // Показать всплывающее окно
+
+                                            // Перенаправление через 2 секунды
+                                            setTimeout(() => {
+                                                window.open('https://example.com/payment', '_blank'); // Замените на вашу страницу оплаты
+                                            }, 2000);
+                                        });
+
+                                        // Закрыть всплывающее окно подтверждения
+                                        document.getElementById("closeConfirmation").addEventListener("click", function () {
+                                            document.getElementById("confirmationModal").style.display = "none";
+                                        });
+                                    </script>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    
-    
-    
+
+
+
         <div id="rec711167325" class="r t-rec t-rec_pb_0" style="padding-bottom:0px; " data-animationappear="off"
             data-record-type="396"><!-- T396 -->
             <style>
@@ -3640,7 +3643,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#D9faf6f2', en
                     }
                 </style>
                 <div class='t396'>
-                    <div class="t396__artboard" data-artboard-recid="710264584"
+                    <div style="z-index: 9999999999;" class="t396__artboard" data-artboard-recid="710264584"
                         data-artboard-screens="320,480,640,960,1200" data-artboard-height="350"
                         data-artboard-valign="center" data-artboard-upscale="grid" data-artboard-height-res-320="752"
                         data-artboard-upscale-res-320="window" data-artboard-height-res-480="482"
