@@ -6,7 +6,7 @@ style.innerHTML = `
                 right: 20px;
                 width: 100px; /* Увеличен размер кнопки */
                 height: 100px; /* Увеличен размер кнопки */
-                background-color: #4f7260;
+                background-color: #2b6658;
                 color: #fff;
                 border: none;
                 border-radius: 50%;
@@ -29,7 +29,7 @@ style.innerHTML = `
                 position: absolute;
                 width: 140px; /* Увеличен размер пульсации */
                 height: 140px; /* Увеличен размер пульсации */
-                border: 2px solid #4f7260;
+                border: 2px solid #2b6658;
                 border-radius: 50%;
                 animation: pulse 2s infinite; /* Увеличена длительность анимации */
             }
